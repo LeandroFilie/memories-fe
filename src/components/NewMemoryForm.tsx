@@ -38,7 +38,7 @@ export default function NewMemoryForm() {
   }
 
   return (
-    <form onSubmit={handleCreateMemory} className="flex flex-1 flex-col gap-2">
+    <form onSubmit={handleCreateMemory} className="flex flex-1 flex-col gap-2 p-16">
       <div className="flex items-center gap-4">
         <label htmlFor="media" className="flex cursor-pointer items-center gap-1.5 text-sm text-gray-200 hover:text-gray-100">
           <Camera className="h-4 w-4" />
